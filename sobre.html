@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TStudio ™</title>
+  <meta name="description" content="TStudio — Interface sci-fi para portfolio, mods, branding e assets de roleplay.">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="loader"><div class="loader-box"><div class="kicker" style="text-align:center">CARREGANDO INTERFACE</div><div class="loader-title">TStudio</div><div class="loader-bar"><div class="loader-fill"></div></div><div class="loader-sub">MODULES/ VISUALS / PORTIFOLIO / AUDIO</div></div></div>
+  <div class="site-bg"></div><div class="scanline"></div><div class="cursor"></div>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" data-sound="hover">
+        <div class="brand-mark"><img src="assets/favicon.ico" alt="TStudio"></div>
+        <div><div class="brand-kicker">TStudio</div><div class="brand-title">Tsuyo Studio</div></div>
+      </a>
+      <nav class="nav">
+        <a class="nav-link" data-sound="hover" href="index.html">Home</a>
+        <a class="nav-link" data-sound="hover" href="portfolio.html">Portfolio</a>
+        <a class="nav-link is-active" data-sound="hover" href="sobre.html">Sobre</a>
+        <a class="nav-link" data-sound="click" href="https://discord.com/invite/NNCN4gFRKj" target="_blank" rel="noopener noreferrer">Discord</a>
+      </nav>
+      <button class="icon-btn" data-sound="click" data-mute-toggle aria-label="Silenciar sons"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18 6a8.5 8.5 0 0 1 0 12"/></svg></button>
+    </div>
+  </header>
+  <main class="main container">
+<section class="about-grid">
+  <div class="panel" style="padding:26px">
+    <div class="kicker">TStudio</div>
+    <h1 class="page-title">Studio de games focado em modificações</h1>
+    <p class="page-text">A TStudio trabalha com identidade visual, vestuário, interfaces e materiais criativos para experiências de jogo com foco em mods e roleplay. A proposta mistura presença autoral, sistema visual vivo e uma linguagem sci-fi limpa.</p>
+    <!-- <p class="page-text"></p> -->
+    <div class="hero-actions" style="margin-top:18px"><a class="btn primary" data-sound="click" href="portfolio.html">Abrir portfolio</a><a class="btn" data-sound="click" href="https://discord.com/invite/NNCN4gFRKj" target="_blank" rel="noopener noreferrer">Discord</a></div>
+  </div>
+  <div class="about-stack">
+    <div class="card mini-card"><div class="mini-title">Bots para Discord</div><div class="mini-text">Desenvolvemos sistemas personalizados para o seu serviodr do Discord</div></div>
+    <div class="card mini-card"><div class="mini-title">Roupas Personalizadas</div><div class="mini-text">Monte sua roupa personalizada, Seja ela para Facção ou pessoal.</div></div>
+    <div class="card mini-card"><div class="mini-title">Script Personalizados</div><div class="mini-text">Descreva-me seu script e eu crio ele para você</div></div>
+    <div class="card mini-card"><div class="mini-title">Assinaturas Mensais</div><div class="mini-text">Com a assinatura mensal você tem direito a todos os produtos acima sem limites durante 1 mês</div></div>
+  </div>
+</section>
+</main>
+  <footer class="footer"><div class="container footer-inner"><div class="brand-kicker">TStudio — <span data-year></span></div><div class="footer-links"><a data-sound="hover" href="index.html">Home</a><a data-sound="hover" href="portfolio.html">Portfolio</a><a data-sound="hover" href="sobre.html">Sobre</a><a data-sound="click" href="https://discord.com/invite/NNCN4gFRKj" target="_blank" rel="noopener noreferrer">Discord</a></div></div></footer>
+  <div class="modal">
+    <div class="modal-shell">
+      <div class="modal-topline"></div>
+      <button class="modal-close" data-modal-close><span data-close-icon></span></button>
+      <button class="modal-nav modal-prev" data-modal-prev><span data-prev-icon></span></button>
+      <button class="modal-nav modal-next" data-modal-next><span data-next-icon></span></button>
+      <div class="modal-grid">
+        <div class="modal-media"><img data-modal-image src="assets/favicon.ico" alt="Preview"></div>
+        <div class="modal-side">
+          <div>
+            <div class="meta" data-modal-meta>Categoria · Tipo</div>
+            <div class="modal-title" data-modal-title>TStudio</div>
+            <div class="modal-desc" data-modal-desc>Visualização detalhada do portfolio.</div>
+          </div>
+          <div>
+            <div class="modal-box"><div class="mini-title">Visualização</div><div class="mini-text">Modal interativo com navegação lateral, foco em imagem e resposta sonora local.</div></div>
+            <div class="modal-actions" style="margin-top:14px"><button class="btn" data-modal-prev>Anterior</button><button class="btn primary" data-modal-next>Próximo</button><button class="btn" data-modal-close>Fechar</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  
+</body>
+</html>
